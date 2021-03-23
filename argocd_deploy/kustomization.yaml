@@ -6,9 +6,9 @@ bases:
 
 resources:
 - resources/namespace.yaml
-  - apps/argocd.yaml
-  - apps/kube_prometheus_stack.yaml
-  - https://raw.githubusercontent.com/argoproj-labs/argocd-notifications/v1.0.2/manifests/install.yaml # ArgoCD Notifications
+- apps/argocd.yaml
+- apps/kube_prometheus_stack.yaml
+- https://raw.githubusercontent.com/argoproj-labs/argocd-notifications/v1.0.2/manifests/install.yaml # ArgoCD Notifications
 
   #patchesStrategicMerge:
   #- overlays/argocd-cm.yaml
