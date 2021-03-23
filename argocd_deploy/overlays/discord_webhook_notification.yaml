@@ -7,7 +7,7 @@ data:
   context: |
     myUsername: "mim#8592" # ADD HERE YOUR USERNAME
   service.webhook.discord: |
-    url: "https://discordapp.com/api/webhooks/819867341805322260/A1jE_iS6ibadvFS0V5NGy8zoWM3N0VxwTQR6zG3SoePB2XSPTcOyMy7Bd0k1zFFqOZC"
+    url: "https://discordapp.com/api/webhooks/819867341805322260/A1jE_iS6ibadvFS0V5NGy8zoWM3N0VxwTQR6zG3SoePB2XSPTcOyMy7Bd0k1zFFqOZC-"
     headers:
     - name: Content-Type
       value: application/json
